@@ -8,6 +8,8 @@ namespace SuperHeros.Data
 
         public DbSet<SuperHero> SuperHeroes { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
 
     }
 }
